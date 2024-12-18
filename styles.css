@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+header {
+    height: 48px;
+    background-color: #1f2937;
+    align-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+header > ul {
+    display: flex;
+    align-items: center;
+}
+
+header > ul > li {
+    list-style: none;
+    margin-left: 24px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+header > ul > li:nth-child(1) {
+    /* margin-left: 48px; */
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/*Section 1*/
+
+.section1-wrapper {
+    height: 480px;
+    background-color: #1f2937;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.section1-content {
+    height: 360px;
+    width: 100%;
+    display: flex;
+}
+
+.image-content {
+    display: flex;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+/*Section 2*/
+.section2-wrapper {
+    height: 480px;
+    background-color: white;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.section2-content {
+    height: 360px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section-2 {
+    flex: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.illustrations {
+    flex: auto;
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.illustration {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    justify-content: space-evenly
+}
+
+.illustration-box {
+    /* flex: 1; */
+    height: 150px;
+    width: 150px;
+    border: 10px solid #3882f6;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.illustration-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Section 3*/
+.section3-wrapper {
+    height: 480px;
+    background-color: #e5e7eb;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.section3-content {
+    height: 360px;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 5%;
+    align-content: center;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/*Section 4*/
+.section4-wrapper {
+    height: 480px;
+    background-color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.section4-content {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 5%; */
+    /* border: 1px solid black; */
+}
+
+.description {
+    /* border: 1px solid black; */
+    align-content: center;
+}
+
+.description-brief {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.description-detailed {
+    font-size: 24px;
+    /* font-weight: bold; */
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.btn-container {
+    /* border: 1px solid black; */
+    align-content: center;
+}
+
+.sign-up-btn {
+    background-color: #3882f6;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+/* Footer */
+.footer-wrapper {
+    height: 96px;
+    background-color: #1f2937;
+    align-content: center;
+}
+
+.copyright-text {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
